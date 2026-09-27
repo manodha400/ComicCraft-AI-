@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.getElementById('comicForm');const b=document.getElementById('submitBtn');if(f&&b)f.addEventListener('submit',()=>{b.disabled=true;b.textContent='🐉 Creating your Dragon Comic...';});});
